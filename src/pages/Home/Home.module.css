@@ -1,0 +1,23 @@
+.textAbout {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #1f3747;
+    border: solid white 3px;
+    border-radius: 10px;
+    font-size: 30px;
+    display: flex;
+    margin: 100px;
+    width: 75%;
+}
+
+.home_components {
+    display: flex;
+    justify-content: center;
+}
+
+.home_components img {
+    width: 350px;
+    height: auto;
+}
+

@@ -1,15 +1,19 @@
 import Header from "../../components/Header";
-import Products from "../../components/Products";
+import styles from "./Home.module.css"
 
 function Home() {
     return (
         <>
             <Header />
-            <Products
-            ProductTitle="X-Salada"
-            ProductImg="https://static.codepill.com.br/domains/7e4e09e5-31af-44d5-bd1e-428319709832/products/gallery_6a868b45-ddf4-4a4f-b030-dd9172b363fb.jpg"
-            ProductDesc="Um chis salada no caprixo."
-            />
+            <div className={styles.home_components}>
+                <p className={styles.textAbout}>
+                    Phoenix Eats é uma plataforma moderna de gastronomia que conecta pessoas apaixonadas por boa comida a restaurantes, chefs independentes e experiências culinárias exclusivas. 
+                    Aqui você encontra cardápios variados, desde pratos tradicionais até criações inovadoras, todos 
+                    preparados com ingredientes selecionados. Seja para pedir delivery, reservar uma refeição especial 
+                    ou descobrir novos sabores, o Phoenix Eats é o lugar certo para explorar a culinária de forma prática 
+                    e confiável.
+                </p>
+            </div>
         </>
     )
 }
