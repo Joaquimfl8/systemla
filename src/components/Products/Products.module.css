@@ -13,12 +13,13 @@
 }
 
 img {
-   width: 100%;
+   width: 75%;
    height: auto;
    object-fit: contain;
 }
 
 .products_price {
     color: rgb(1, 163, 1);
+    font-size: 20px;
 }
 
