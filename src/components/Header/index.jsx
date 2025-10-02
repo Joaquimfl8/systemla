@@ -1,5 +1,6 @@
 import styles from './Header.module.css';
 import PhoenixImg from '../../imgs/Phoenix-removebg-preview.png';
+import {Link} from 'react-router-dom'
 
 function Header() {
     return (
@@ -9,12 +10,11 @@ function Header() {
                     <img src={PhoenixImg} alt="" />
                     <h1 className={styles.header_titulo}>Phoenix Eats</h1>
                 </div>
-                <div className={styles.header_anchors}>
-                    <p>aaaaaa</p>
-                    <p>/aaaaaa</p>
-                    <p>/aaaaaa</p>
-                    <p>/aaaaaa</p>
-                </div>
+                <nav className={styles.header_anchors}>
+                    <Link to="/">Home</Link>
+                    <Link to="/products">Products</Link>
+                    <Link to="/aboutus">About Us</Link>
+                </nav>
             </div>
         </>
     )

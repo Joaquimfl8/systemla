@@ -17,3 +17,8 @@ img {
    height: auto;
    object-fit: contain;
 }
+
+.products_price {
+    color: rgb(1, 163, 1);
+}
+

@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
-import styles from "./Home.module.css"
+import styles from "./Home.module.css";
+import PhoenixImg from '../../imgs/Phoenix-removebg-preview.png';
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
                     ou descobrir novos sabores, o Phoenix Eats é o lugar certo para explorar a culinária de forma prática 
                     e confiável.
                 </p>
+                <img src={PhoenixImg} alt="" />
             </div>
         </>
     )

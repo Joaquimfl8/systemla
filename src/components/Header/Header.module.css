@@ -27,8 +27,13 @@
     height: auto;
 }
 
-.header_anchors {
+.header_anchors{
     display: flex;
-    justify-self: stretch;
+    color: white;
+    text-decoration: none;
 }
 
+Link {
+    color: white;
+    margin: 5px;
+}
