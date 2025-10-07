@@ -11,9 +11,9 @@ function Header() {
                     <h1 className={styles.header_titulo}>Phoenix Eats</h1>
                 </div>
                 <nav className={styles.header_anchors}>
-                    <Link to="/">Home</Link>
-                    <Link to="/products">Products</Link>
-                    <Link to="/aboutus">About Us</Link>
+                    <Link className={styles.header_links} to="/">Home</Link>
+                    <Link className={styles.header_links} to="/products">Products</Link>
+                    <Link className={styles.header_links} to="/aboutus">About Us</Link>
                 </nav>
             </div>
         </>
