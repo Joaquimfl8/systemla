@@ -9,7 +9,7 @@ function ProductsPage() {
             <div className={styles.products_index}>
                 <Products
                     ProductTitle = "X-Salada"
-                    ProductImg = "https://cardapiodigital.vinculacao.com/wp-content/uploads/2021/02/xsalada-removebg-preview.png"
+                    ProductImg = "https://static.itdg.com.br/images/360-240/49a3716c1fba67dbc2d6a5d47db12776/52295-original.jpg"
                     ProductDesc = "Hambúrguer suculento, queijo derretido, alface crocante, tomate fresco e maionese especial no pão macio."
                     ProductPrice = "$10000000"
                 />
