@@ -32,10 +32,11 @@
 
 .header_anchors{
     display: flex;
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
     gap: 20px;
     margin-right: 50px;
+
 }
 
 .Link {
