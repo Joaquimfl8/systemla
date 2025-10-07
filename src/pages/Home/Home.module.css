@@ -1,3 +1,11 @@
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
 .textAbout {
     display: flex;
     flex-direction: column;
@@ -9,9 +17,9 @@
     border: solid white 3px;
     border-radius: 10px;
     font-size: 30px;
-    margin: 100px;
-    width: 25%;
-    background-image: url('https://padariasantacruz.loji.com.br/storage/uploads/Z5MSvFbZnkrkaGvjjFLagfnwn7g1xV0QFsGJO1Hz.jpeg');
+    margin: 20px;
+    width: 300px;
     background-size: cover;
+    background-position: center;
     height: 800px;
 }
