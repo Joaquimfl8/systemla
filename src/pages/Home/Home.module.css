@@ -1,21 +1,17 @@
 .textAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     text-align: center;
     padding: 20px;
     color: white;
     border: solid white 3px;
     border-radius: 10px;
     font-size: 30px;
-    display: flex;
     margin: 100px;
     width: 25%;
-    background-image: url('https://blog.novasafra.com.br/wp-content/uploads/2016/01/accb7d_37d37d9f1001e88384dafc6e5cc60c4f.jpg_1024.jpg');
+    background-image: url('https://padariasantacruz.loji.com.br/storage/uploads/Z5MSvFbZnkrkaGvjjFLagfnwn7g1xV0QFsGJO1Hz.jpeg');
     background-size: cover;
     height: 800px;
 }
-
-.home_components {
-    display: flex;
-    justify-content: center;
-}
-
-
