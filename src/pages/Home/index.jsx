@@ -7,19 +7,18 @@ function Home() {
     return (
         <>
             <Header />
-            <div className={styles.home_components}>
-                <p className={styles.textAbout}>
-                    <div class="card">
-                        <div className={styles.card_content}>
-                            <h2>Pizza de Calabresa</h2>
-                            <div className={styles.Cards}>
-                                <p>Deliciosa pizza de calabresa com borda recheada de catupiry, perfeita para compartilhar com amigos e família.</p>
-                                <Link to="/Products">Peça Agora</Link>
-                            </div>
+            <div className={styles.textAbout}>
+                <div className="card">
+                    <div className={styles.card_content}>
+                        <h2>Pizza de Calabresa</h2>
+                        <div className={styles.Cards}>
+                            <p>Deliciosa pizza de calabresa com borda recheada de catupiry, perfeita para compartilhar com amigos e família.</p>
+                            <Link to="/Products">Peça Agora</Link>
                         </div>
                     </div>
-                </p>
+                </div>
             </div>
+
         </>
     )
 }
