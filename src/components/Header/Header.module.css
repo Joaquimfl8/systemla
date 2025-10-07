@@ -9,12 +9,14 @@
 .header_components {
     font-size: 20px;
     color: white;
-    width: 100vw;
-    justify-content: space-between;
+    width: 100%;
     background-color: #1f3747;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    box-shadow: -0px 5px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.541);
+    padding: 10px 30px;
+    flex-wrap: wrap;
 }
 
 .header_title {
@@ -23,6 +25,7 @@
     font-size: 15px;
     margin: 10px ;
     gap: 15px;
+    flex-shrink: 0;
 }
 
 .header_components img{
@@ -44,5 +47,5 @@
 }
 
 .header_links{
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
 }
